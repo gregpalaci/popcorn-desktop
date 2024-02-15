@@ -26,7 +26,7 @@ cask "popcorn-time" do
   url "https://github.com/popcorn-official/popcorn-desktop/releases/download/v0.5.0/Popcorn-Time-0.5.0-osxarm64.zip"
 
   auto_updates true
-  depends_on arch: :x86_64
+  depends_on arch: :arm64
 
   app "#{name.first}.app"
 
