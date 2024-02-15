@@ -2,7 +2,7 @@ cask "popcorn-time" do
   version "0.4.9"
 
   nwjs = "0.64.0"
-  arch = "x64"
+  arch = "arm64"
 
   name token.gsub(/\b\w/, &:capitalize)
   desc "BitTorrent client that includes an integrated media player"
